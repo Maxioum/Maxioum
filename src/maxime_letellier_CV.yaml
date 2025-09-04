@@ -34,7 +34,7 @@ cv:
         summary: "Scale up - Weekly sprints - Creation of customizable and scalable product visuals."
         highlights:
           - "**Developed **3D pipelines** (3dsMax, Blender, Python, Apache Airflow)"
-          - "**Developed **add-ons** (Python, Blender, 3dsMax)"
+          - "**Developed add-ons** (Python, Blender, 3dsMax)"
           - "**Built an automated quality-check software** (Python): - Easy to extend with new user-defined checks and fixes."
           - "**Refactored a legacy 3D check pipeline**: - Migrated unmaintainable legacy code into modular, abstract components thanks to the aforementioned automated quality-check software. - Added unit, integration, and end-to-end tests. - Introduced automatic technical documentation with **Sphinx**. - Reduced time to implement a new check from several days to half a day. - Standardized workflows with Poetry."
       - company: "[tOOiin](https://www.tooiin.com/)"
