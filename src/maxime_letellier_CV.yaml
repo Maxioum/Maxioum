@@ -37,8 +37,7 @@ cv:
           - "**Developed add-ons** (Python, Blender, 3dsMax)"
           - "**Built an automated quality-check software** (Python): - Easy to extend with new user-defined checks and fixes."
           - "**Refactored a legacy 3D check pipeline**: - Migrated unmaintainable legacy code into modular, abstract components thanks to the aforementioned automated quality-check software. - Added unit, integration, and end-to-end tests. - Introduced automatic technical documentation with **Sphinx**. - Reduced time to implement a new check from several days to half a day. - Standardized workflows with Poetry."
-      - company: "[tOOiin](https://www.tooiin.com/)"
-        website: "https://www.tooiin.com/"
+      - company: "tOOiin"
         position: "Software Engineer → Lead Software Engineer 3D"
         contract_type: "CDI"
         location: "Remote / Paris (75), FRANCE"
@@ -101,12 +100,14 @@ cv:
         details: "Git (GitHub, GitLab), CI/CD pipelines, automated testing (Pytest, Unittest), containerization & deployment (Docker, Apache Airflow, Argo Workflows)"
       - label: "Python Ecosystem"
         details: "uv, ruff, mypy, pre-commit, numpy, scipy, pytorch, PIL, qt, opencv, bpy, typer"
-
     Languages:
       - label: "French"
         details: "native"
       - label: "English"
         details: "C1"
+    References:
+      - "[Jordi Bastide](https://www.linkedin.com/in/jordibastide) ([Nfinite](https://www.nfinite.app/))"
+      - "[Mathieu Percie du Sert](https://www.linkedin.com/in/mathieu-percie-du-sert-43bb1b/) (tOOiin)"
     Community Involvement:
       - label: "Vice-president at [Tant qu’il Y aura des Ohms (TYO)](https://tyo.asso-ensea.fr/) (2011-2013)"
         details: "ENSEA student association — Organized the 22nd and 23rd [International Student Short Film Festivals of Cergy-Pontoise](https://fr.wikipedia.org/wiki/Festival_international_du_court_m%C3%A9trage_%C3%A9tudiant_de_Cergy-Pontoise)"
