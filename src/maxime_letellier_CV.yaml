@@ -12,6 +12,13 @@ cv:
   sections:
     summary: 
       - "Software Engineer with strong expertise in Python. Experienced in R&D, tool development, and workflow automation. Able to adapt quickly, learn new technologies, and deliver efficient solutions to complex challenges."
+    skills:
+      - label: "Programming Languages"
+        details: "Python, C#, (Learning Rust), always willing to learn new languages"
+      - label: "Software Engineering Practices"
+        details: "Git (GitHub, GitLab), CI/CD pipelines, automated testing (Pytest, Unittest), containerization & deployment (Docker, Apache Airflow, Argo Workflows)"
+      - label: "Python Ecosystem"
+        details: "uv, ruff, mypy, pre-commit, numpy, scipy, pytorch, PIL, qt, opencv, bpy, typer"
     experience:
       - company: "Gemos"
         start_date: "2024-10"
@@ -61,6 +68,9 @@ cv:
           - "Developed mobile applications (Unity3D, C#)"
           - "Implemented server-side components (Java and MongoDB)"
           - "R&D contributions, worked on projects involving image processing, face recognition, and digital twin concepts"
+    References:
+      - "[Jordi Bastide](https://www.linkedin.com/in/jordibastide) ([Nfinite](https://www.nfinite.app/))"
+      - "[Mathieu Percie du Sert](https://www.linkedin.com/in/mathieu-percie-du-sert-43bb1b/) (tOOiin)"
     education:
       - institution: "Arts et Métiers (ENSAM)"
         degree: "MSc"
@@ -86,6 +96,14 @@ cv:
         area: "Mathematics"
         highlights:
           - "University-level preparation for the nationwide competitive entrance exams to the French Grandes Écoles"
+    Languages:
+      - label: "French"
+        details: "native"
+      - label: "English"
+        details: "C1"
+    Links:
+      - "[LLM friendly version of this CV](https://github.com/Maxioum/Maxioum)"
+      - "My [portfolio](https://maxletellier.wixsite.com/portfolio/projets-r-d)"
     internships:
       - label: "StreetLab - Institut de la Vision"
         details: "Built an interactive [ZSpace](https://zspace.com/) application (C#, Unity3D)"
@@ -93,29 +111,12 @@ cv:
         details: "Developed a serious game (Python, Blender, Max/MSP)"
       - label: "LIPADE"
         details: "Created a Python CLI tool"
-    Programming Skills:
-      - label: "Programming Languages"
-        details: "Python, C#, (Learning Rust), always willing to learn new languages"
-      - label: "Software Engineering Practices"
-        details: "Git (GitHub, GitLab), CI/CD pipelines, automated testing (Pytest, Unittest), containerization & deployment (Docker, Apache Airflow, Argo Workflows)"
-      - label: "Python Ecosystem"
-        details: "uv, ruff, mypy, pre-commit, numpy, scipy, pytorch, PIL, qt, opencv, bpy, typer"
-    Languages:
-      - label: "French"
-        details: "native"
-      - label: "English"
-        details: "C1"
-    References:
-      - "[Jordi Bastide](https://www.linkedin.com/in/jordibastide) ([Nfinite](https://www.nfinite.app/))"
-      - "[Mathieu Percie du Sert](https://www.linkedin.com/in/mathieu-percie-du-sert-43bb1b/) (tOOiin)"
     Community Involvement:
       - label: "Vice-president at [Tant qu’il Y aura des Ohms (TYO)](https://tyo.asso-ensea.fr/) (2011-2013)"
         details: "ENSEA student association — Organized the 22nd and 23rd [International Student Short Film Festivals of Cergy-Pontoise](https://fr.wikipedia.org/wiki/Festival_international_du_court_m%C3%A9trage_%C3%A9tudiant_de_Cergy-Pontoise)"
     Interests:
       - "Mathematics, Sciences, Music (Sing, Guitar, Drums), Computer Sciences"
-    Links:
-      - "[LLM friendly version of this CV](https://github.com/Maxioum/Maxioum)"
-      - "My [portfolio](https://maxletellier.wixsite.com/portfolio/projets-r-d)"
+
 rendercv_settings:
   bold_keywords:
     - "Python"
