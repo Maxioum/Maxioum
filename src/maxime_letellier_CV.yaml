@@ -2,7 +2,6 @@ cv:
   name: "Maxime Letellier"
   location: "Paris, France"
   email: "maxime.eliot.letellier@gmail.com"
-  nationality: "french"
   phone: "+33 6 77 72 76 92"
   social_networks:
     - network: "LinkedIn"
@@ -11,15 +10,25 @@ cv:
       username: "Maxioum"
   sections:
     summary: 
-      - "Software Engineer with strong expertise in Python. Experienced in R&D, tool development, and workflow automation. Able to adapt quickly, learn new technologies, and deliver efficient solutions to complex challenges."
+      - "Software Engineer with strong expertise in Python and C#. Experienced in R&D, tool development, and workflow automation. Able to adapt quickly, learn new technologies, and deliver efficient solutions to complex challenges."
     skills:
       - label: "Programming Languages"
-        details: "Python, C#, (Learning Rust), always willing to learn new languages"
+        details: "Python, C#, AutoLISP, always willing to learn new languages"
       - label: "Software Engineering Practices"
         details: "Git (GitHub, GitLab), CI/CD pipelines, automated testing (Pytest, Unittest), containerization & deployment (Docker, Apache Airflow, Argo Workflows)"
       - label: "Python Ecosystem"
         details: "uv, ruff, mypy, pre-commit, numpy, scipy, pytorch, PIL, qt, opencv, bpy, typer"
     experience:
+      - company: "[SNCF Réseau](https://www.sncf-reseau.com/)"
+        website: "https://www.sncf-reseau.com/"
+        start_date: "2026-03"
+        contract_type: "Freelance"
+        position: "Software Engineer"
+        location: "Saint-Denis (93)"
+        highlights:
+          - "**Maintained and modernized legacy AutoCAD / BricsCAD plugins** used by SNCF agents for technical drawings, progressively improving the architecture and maintainability of a mixed C#/AutoLISP codebase."
+          - "**Developed a raster image editing application integrated into BricsCAD** (C#), reimplementing AutoCAD Raster Design features for 1-bit images. Deployed nationwide and used by SNCF agents."
+          - "**Supervised an intern** working on raster image processing and application development."
       - company: "Gemos"
         start_date: "2024-10"
         end_date: "2025-04"
@@ -117,10 +126,15 @@ cv:
     Interests:
       - "Mathematics, Sciences, Music (Sing, Guitar, Drums), Computer Sciences"
 
-rendercv_settings:
+settings:
+  current_date: today
+  pdf_title: NAME - CV
   bold_keywords:
     - "Python"
     - "C"
+    - "AutoLISP"
+    - "AutoCAD"
+    - "BricsCAD"
     - "Apache"
     - "Airflow"
     - "Blender"
