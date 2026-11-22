@@ -13,7 +13,7 @@ cv:
       - "Software Engineer with strong expertise in Python and C#. Experienced in R&D, tool development, and workflow automation. Able to adapt quickly, learn new technologies, and deliver efficient solutions to complex challenges."
     skills:
       - label: "Programming Languages"
-        details: "Python, C#, Lisp, always willing to learn new languages"
+        details: "Python, C#, AutoLISP, always willing to learn new languages"
       - label: "Software Engineering Practices"
         details: "Git (GitHub, GitLab), CI/CD pipelines, automated testing (Pytest, Unittest), containerization & deployment (Docker, Apache Airflow, Argo Workflows)"
       - label: "Python Ecosystem"
@@ -25,10 +25,10 @@ cv:
         contract_type: "Freelance"
         position: "Software Engineer"
         location: "Saint-Denis (93)"
-        summary: "National Train Compagny"
         highlights:
-          - "**Developed plugins for Autocad/Bricscad** (C#, Python, Lisp)"
-          - "**Developed an application for editing Raster images within Bricscad** used nationwide by SNCF Agents (C#)"
+          - "**Maintained and modernized legacy AutoCAD / BricsCAD plugins** used by SNCF agents for technical drawings, progressively improving the architecture and maintainability of a mixed C#/AutoLISP codebase."
+          - "**Developed a raster image editing application integrated into BricsCAD** (C#), reimplementing AutoCAD Raster Design features for 1-bit images. Deployed nationwide and used by SNCF agents."
+          - "**Supervised an intern** working on raster image processing and application development."
       - company: "Gemos"
         start_date: "2024-10"
         end_date: "2025-04"
@@ -132,7 +132,9 @@ settings:
   bold_keywords:
     - "Python"
     - "C"
-    - Lisp
+    - "AutoLISP"
+    - "AutoCAD"
+    - "BricsCAD"
     - "Apache"
     - "Airflow"
     - "Blender"
